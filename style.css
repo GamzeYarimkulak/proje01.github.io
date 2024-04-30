@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7; 
+    animation: colorfulWaveBackground 12s infinite alternate;
+}
+
+@keyframes colorfulWaveBackground {
+    0% {
+        background-color: #f7f7f7; 
+    }
+    25% {
+        background-color: #ffdce0; 
+    }
+    50% {
+        background-color: #c4ffbe; 
+    }
+    75% {
+        background-color: #bbf3f4; 
+    }
+    100% {
+        background-color: #f7f7f7; 
+    }
+}
+.start-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #2980b9; 
+}
+
+
+.game-area {
+    position: relative;
+    width: 1000px; 
+    height: 600px; 
+    background-color: #2980b9; 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.paddle {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    background-color: #ffb6c1; 
+}
+
+#leftPaddle {
+    left: 10px;
+}
+
+#rightPaddle {
+    right: 10px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000000; 
+    border-radius: 50%;
+}
+
+.score-left,
+.score-right {
+    position: absolute;
+    top: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.score-left {
+    left: 20px;
+}
+
+.score-right {
+    right: 20px;
+}
+
+.game-over-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1000;
+}
+
+.game-over-message {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.play-again-button {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-again-button:hover {
+    background-color: #45a049;
+}

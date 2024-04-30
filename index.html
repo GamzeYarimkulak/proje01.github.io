@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-area">
+        <div class="score-left">
+            <span id="leftScore">1. Oyuncu: 0</span>
+        </div>
+        <div class="score-right">
+            <span id="rightScore">2. Oyuncu: 0</span>
+        </div>
+        <div id="gameOverContainer" class="game-over-container">
+            <div id="gameOverMessage" class="game-over-message"></div>
+            <button id="playAgainButton" class="play-again-button">Tekrar Oyna</button>
+        </div>
+        <div class="paddle" id="leftPaddle"></div>
+        <div class="paddle" id="rightPaddle"></div>
+        <div class="ball" id="ball"></div>
+    </div>
+     
+<!-- Arka planda oyun hakkında bilgi veren açıklama -->
+<div id="instructions" style="position: fixed; top: 20px; right: 20px; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 5px; text-align: center; color: #333; font-size: 16px;">
+    <p style="margin-bottom: 5px;">Oyun</p>
+    <p style="margin-bottom: 5px;">Sol raket: W (Yukarı) ve S (Aşağı)</p>
+    <p style="margin-bottom: 5px;">Sağ raket: Yukarı (↑) ve Aşağı (↓)</p>
+    
+</div>
+    <button id="startButton" class="start-button">Oyunu Başlat</button>
+    <script src="script.js"></script>
+</body>
+</html>
