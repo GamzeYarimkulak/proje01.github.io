@@ -26,7 +26,7 @@ Bu proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiş bir Pong oyunudu
 
 ## Ekran Görüntüleri
 
-![Oyun Ekranı](Ekran görüntüsü 2024-04-30 173200.png)
+![Ekran görüntüsü 2024-04-30 173348](https://github.com/GamzeYarimkulak/proje01.github.io/assets/165809516/ec30bc73-7be1-481f-95d5-e39da6f046c2)
 ![Oyun ekranı2](Ekran görüntüsü 2024-04-30 173348.png)
 
 ## Katkıda Bulunma
