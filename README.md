@@ -22,7 +22,7 @@ Bu proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiş bir Pong oyunudu
 - Oyun sonunda kazananı belirleme
   
 ## Youtube videosu
-[!Pong Oyunu](https://youtu.be/KMq4-jdoJe4)
+[!Pong Oyunu](https://youtu.be/siYWHGIL-rY?si=IEYuVZseABCpElcU)
 
 ## Ekran Görüntüleri
 
