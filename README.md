@@ -26,8 +26,8 @@ Bu proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiş bir Pong oyunudu
 
 ## Ekran Görüntüleri
 
-![Oyun Ekranı](Screenshots\Ekran görüntüsü 2024-04-30 173200.png)
-![Oyun ekranı2](Screenshots\Ekran görüntüsü 2024-04-30 173348.png)
+![Oyun Ekranı](Ekran görüntüsü 2024-04-30 173200.png)
+![Oyun ekranı2](Ekran görüntüsü 2024-04-30 173348.png)
 
 ## Katkıda Bulunma
 
