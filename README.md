@@ -1,4 +1,3 @@
-# proje01.github.io
 # Pong Oyunu
 
 Bu proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiş bir Pong oyunudur.
